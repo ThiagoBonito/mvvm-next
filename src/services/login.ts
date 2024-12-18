@@ -1,4 +1,4 @@
-import type { Login } from '@/app/models/login'
+import type { Login } from '@/models/login'
 import api from '@/libs/ky'
 
 export const fetchLogin = async (
